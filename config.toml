@@ -5,11 +5,12 @@ enable-magisk-update = true   # set this to false if you do not want to receive 
 
 # you can use rvmm-config-gen to generate a config
 
+cli-source = "ReVanced/revanced-cli" # where to fetch cli from. default: "j-hc/revanced-cli"
+
 [YouTube]
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
 build-mode = "both"
-included-patches = "'Custom branding'"
-# excluded-patches = "'Client spoof' 'GmsCore support'"
+included-patches = "'Change header' 'Custom branding'"
 
 [Music]
 enabled = false
