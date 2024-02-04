@@ -13,7 +13,6 @@ build-mode = "both"
 included-patches = "'Change header' 'Custom branding'"
 
 [Music]
-enabled = false
 build-mode = "both"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.youtube.music"
 arch = "arm64-v8a"
