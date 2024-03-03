@@ -7,8 +7,7 @@ enable-magisk-update = true   # set this to false if you do not want to receive 
 
 #cli-source = "ReVanced/revanced-cli" # where to fetch cli from. default: "j-hc/revanced-cli"
 
-[YouTube-module]
-app-name = "YouTube"
+[YouTube]
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
 build-mode = "module"
 included-patches = "'Change header' 'Custom branding'"
