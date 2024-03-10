@@ -114,4 +114,5 @@ done
 
 ui_print "* Done"
 ui_print "  by j-hc (github.com/j-hc)"
+ui_print "  config by Lassie (github.com/Lassie111)"
 ui_print " "
