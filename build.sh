@@ -167,7 +167,7 @@ rm -rf temp/tmp.*
 if [ -z "$(ls -A1 ${BUILD_DIR})" ]; then abort "All builds failed."; fi
 
 log "\n~~Install [Vanced Microg](https://github.com/TeamVanced/VancedMicroG/releases) for non-root YouTube and YT Music~~"
-log "\nInstall [ReVanced GmsCore](https://github.com/ReVanced/GmsCore/releases) for non-root YouTube and YT Music"
+log "Install [ReVanced GmsCore](https://github.com/ReVanced/GmsCore/releases) for non-root YouTube and YT Music"
 log "Use [zygisk-detach](https://github.com/j-hc/zygisk-detach) module to detach YouTube and YT Music from Play Store"
 log "\n[revanced-magisk-module](https://github.com/Lassie111/revanced-magisk-module)"
 log "\nChangelog:"
