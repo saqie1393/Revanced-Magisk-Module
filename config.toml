@@ -12,14 +12,14 @@ apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
 build-mode = "module"
 included-patches = "'Change header' 'Custom branding'"
 #excluded-patches = "'Spoof client'"
-pather-args = "-Oheader=revanced*"
+patcher-args = "-Oheader=revanced*"
 
 [YouTube-apk]
 app-name = "YouTube"
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
 build-mode = "apk"
 included-patches = "'Change header' 'Custom branding'"
-pather-args = "-Oheader=revanced*"
+patcher-args = "-Oheader=revanced*"
 
 [Music]
 build-mode = "both"
