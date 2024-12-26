@@ -11,23 +11,23 @@ enable-magisk-update = true # set this to false if you do not want to receive up
 [YouTube]
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
 uptodown-dlurl = "https://youtube.en.uptodown.com/android"
-build-mode = "module"
+build-mode = "both"
 included-patches = "'Change header' 'Custom branding'"
 #excluded-patches = "'Spoof client'"
 patcher-args = """ \
 	-Oheader="revanced*" \
 	"""
 
-[YouTube-apk]
-app-name = "YouTube"
-apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
-uptodown-dlurl = "https://youtube.en.uptodown.com/android"
-build-mode = "apk"
-arch = "arm64-v8a"
-included-patches = "'Change header' 'Custom branding'"
-patcher-args = """ \
-	-Oheader="revanced*" \
-	"""
+#[YouTube-apk]
+#app-name = "YouTube"
+#apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
+#uptodown-dlurl = "https://youtube.en.uptodown.com/android"
+#build-mode = "apk"
+#arch = "arm64-v8a"
+#included-patches = "'Change header' 'Custom branding'"
+#patcher-args = """ \
+#	-Oheader="revanced*" \
+#	"""
 
 [Music]
 build-mode = "both"
