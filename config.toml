@@ -15,7 +15,7 @@ build-mode = "module"
 included-patches = "'Change header' 'Custom branding'"
 #excluded-patches = "'Spoof client'"
 patcher-args = """ \
-	-Oheader=revanced* \
+	-Oheader="revanced*" \
 	"""
 
 [YouTube-apk]
@@ -26,7 +26,7 @@ build-mode = "apk"
 arch = "arm64-v8a"
 included-patches = "'Change header' 'Custom branding'"
 patcher-args = """ \
-	-Oheader=revanced* \
+	-Oheader="revanced*" \
 	"""
 
 [Music]
