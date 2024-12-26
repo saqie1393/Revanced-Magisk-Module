@@ -12,6 +12,7 @@ enable-magisk-update = true # set this to false if you do not want to receive up
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
 uptodown-dlurl = "https://youtube.en.uptodown.com/android"
 build-mode = "both"
+arch = "arm64-v8a"
 included-patches = "'Change header' 'Custom branding'"
 #excluded-patches = "'Spoof client'"
 patcher-args = """ \
