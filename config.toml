@@ -45,7 +45,7 @@ build-mode = "both"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music/"
 uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
 arch = "arm64-v8a"
-patcher-args = "-d 'Spoof app version'"
+patcher-args = "-d 'Spoof app version' -d 'Disable Cairo splash animation'"
 
 [YouTube-Extended]
 enabled = true
