@@ -59,18 +59,3 @@ arch = "arm64-v8a"
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
 uptodown-dlurl = "https://youtube.en.uptodown.com/android"
 #archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
-
-[Spotify]
-enabled = true
-build-mode = "module"
-arch = "arm64-v8a"
-uptodown-dlurl = "https://spotify.en.uptodown.com/android"
-version = "9.0.30.631"
-patcher-args = "-d 'Spoof signature'"
-
-[Spotify-apk]
-enabled = true
-build-mode = "apk"
-arch = "arm64-v8a"
-uptodown-dlurl = "https://spotify.en.uptodown.com/android"
-version = "9.0.30.631"
